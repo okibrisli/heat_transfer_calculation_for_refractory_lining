@@ -93,7 +93,7 @@ wall = htp.SingleObject1D(
     dx=dx,
     dt=dt,
     boundaries=(T_hot, T_cold),         # Dirichlet BCs on both faces
-    file_name="old/wall_temperature.csv",
+    file_name="wall_temperature.csv",
     draw=[],                            # disable live plotting for batch runs
 )
 
@@ -162,7 +162,7 @@ print(f"Heat flux (analytical): {q_analytical:.2f} W/m^2")
 # ---------------------------------------------------------------------
 # 5. Save profile for comparison against SIMU-THERM
 # ---------------------------------------------------------------------
-with open("old/steady_state_profile.csv", "w", newline="") as f:
+with open("steady_state_profile.csv", "w", newline="") as f:
     writer = csv.writer(f)
     writer.writerow(["x_m", "T_heatrapy_K", "T_analytical_K"])
     for x, t_num, t_ana in zip(x_positions, final_profile, analytical_profile):

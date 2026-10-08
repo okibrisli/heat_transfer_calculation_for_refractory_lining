@@ -173,12 +173,12 @@ for t_target in sample_times:
 # ---------------------------------------------------------------------
 # 5. Save results for comparison against SIMU-THERM's transient run
 # ---------------------------------------------------------------------
-with open("old/transient_monitor_points.csv", "w", newline="") as f:
+with open("transient_monitor_points.csv", "w", newline="") as f:
     writer = csv.writer(f)
     writer.writerow(["time_s", "T_x_L4_K", "T_x_L2_K", "T_x_3L4_K"])
     writer.writerows(monitor_series)
 
-with open("old/transient_profiles.csv", "w", newline="") as f:
+with open("transient_profiles.csv", "w", newline="") as f:
     writer = csv.writer(f)
     header = ["x_m"] + [f"t={t:.1f}s" for t, _ in profile_snapshots]
     writer.writerow(header)

@@ -42,9 +42,9 @@ PICARD_TOLERANCE = 1.0e-6
 PICARD_MAX_ITERATIONS = 100
 COLD_FACE_LIMITS_C = [50.0, 60.0, 80.0, 100.0]
 
-CSV_FILE = "old/wds_robin_transient_data.csv"
-REPORT_FILE = "old/wds_robin_transient_report.html"
-DASHBOARD_FILE = "old/wds_robin_transient_interactive.html"
+CSV_FILE = "wds_robin_transient_data.csv"
+REPORT_FILE = "wds_robin_transient_report.html"
+DASHBOARD_FILE = "wds_robin_transient_interactive.html"
 
 # =============================================================================
 # MODEL SETUP

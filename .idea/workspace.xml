@@ -5,11 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff2c2a61-de3e-43d0-81de-63f74bfcc452" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/.idea/heat_transfer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/batch_run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/coef_check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/steady_calc_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/steady_calc_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/steady_report_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/steady_report_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transient_calc_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transient_calc_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transient_report_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transient_report_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/old/1_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/old/1_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/old/1_6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/old/1_8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WDS_nice_report_final.py" beforeDir="false" afterPath="$PROJECT_DIR$/old/WDS_nice_report_final.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WDS_steady_transient_report.py" beforeDir="false" afterPath="$PROJECT_DIR$/old/WDS_steady_transient_report.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/steady_state_Al_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/old/steady_state_Al_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transient_Al_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/old/transient_Al_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +33,6 @@
   </component>
   <component name="EmbeddingIndexingInfo">
     <option name="cachedIndexableFilesCount" value="36" />
-    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,23 +62,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0006487723701643" />
-      <entry key="MS500" value="1.230366046549676" />
-      <entry key="S2" value="1.6927947968334158" />
-      <entry key="S5" value="1.8634592511468555" />
-      <entry key="S10" value="1.9292250809932194" />
-      <entry key="S30" value="1.9758288217780093" />
-      <entry key="S60" value="1.9878404891729353" />
-      <entry key="M2" value="1.994016274135962" />
-      <entry key="M5" value="2.0539736944734615" />
-      <entry key="M10" value="2.498085279232993" />
-      <entry key="M15" value="3.088165686704548" />
-      <entry key="M30" value="4.632376666736022" />
-      <entry key="H1" value="6.555557441484826" />
-      <entry key="H2" value="8.558505805329993" />
-      <entry key="H4" value="10.432461559097991" />
-      <entry key="D1" value="13.204921222164677" />
-      <entry key="W1" value="13.879750804754247" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000001970411105" />
+      <entry key="S5" value="1.0020788480126042" />
+      <entry key="S10" value="1.0455943857575063" />
+      <entry key="S30" value="1.3572637592209924" />
+      <entry key="S60" value="1.6032174492563458" />
+      <entry key="M2" value="1.8796255845421719" />
+      <entry key="M5" value="2.780755800287789" />
+      <entry key="M10" value="4.881188295670256" />
+      <entry key="M15" value="7.037091557771001" />
+      <entry key="M30" value="11.859042191522777" />
+      <entry key="H1" value="17.42583893133323" />
+      <entry key="H2" value="23.708279162382812" />
+      <entry key="H4" value="30.178362850166888" />
+      <entry key="D1" value="40.73908748499132" />
+      <entry key="W1" value="43.499853826312275" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -86,23 +100,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.933651036748707" />
-      <entry key="MS500" value="1.2143740766292221" />
-      <entry key="S2" value="1.687656366092159" />
-      <entry key="S5" value="1.861236417587331" />
-      <entry key="S10" value="1.9280814205244894" />
-      <entry key="S30" value="1.9754399871372548" />
-      <entry key="S60" value="1.9876450906257825" />
-      <entry key="M2" value="1.993917788029513" />
-      <entry key="M5" value="2.053852177640459" />
-      <entry key="M10" value="2.497766363111329" />
-      <entry key="M15" value="3.087765513967127" />
-      <entry key="M30" value="4.631993169095844" />
-      <entry key="H1" value="6.555288401887594" />
-      <entry key="H2" value="8.558344206650974" />
-      <entry key="H4" value="10.432372044153965" />
-      <entry key="D1" value="13.204904769275558" />
-      <entry key="W1" value="13.879748410179879" />
+      <entry key="MS100" value="0.7737824967711949" />
+      <entry key="MS500" value="0.950000382874886" />
+      <entry key="S2" value="0.987258839174586" />
+      <entry key="S5" value="0.9969532026832661" />
+      <entry key="S10" value="1.042928854321934" />
+      <entry key="S30" value="1.3561369518217805" />
+      <entry key="S60" value="1.602561077166643" />
+      <entry key="M2" value="1.879252804070926" />
+      <entry key="M5" value="2.7805604065059972" />
+      <entry key="M10" value="4.881040461176938" />
+      <entry key="M15" value="7.0369601981196706" />
+      <entry key="M30" value="11.858938653539358" />
+      <entry key="H1" value="17.425749880525007" />
+      <entry key="H2" value="23.70819006101266" />
+      <entry key="H4" value="30.178286716980192" />
+      <entry key="D1" value="40.739065658711255" />
+      <entry key="W1" value="43.499850376454575" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -126,6 +140,17 @@
     "Python.1_7.executor": "Run",
     "Python.1_8.executor": "Run",
     "Python.WDS_nice_report_final (1).executor": "Run",
+    "Python.WDS_steady_transient_report (1).executor": "Run",
+    "Python.batch_run.executor": "Run",
+    "Python.coef_check.executor": "Run",
+    "Python.steady_calc_1.executor": "Run",
+    "Python.steady_calc_2.executor": "Run",
+    "Python.steady_report_1.executor": "Run",
+    "Python.steady_report_2.executor": "Run",
+    "Python.transient_calc_1.executor": "Run",
+    "Python.transient_calc_2.executor": "Run",
+    "Python.transient_report_1.executor": "Run",
+    "Python.transient_report_2.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -134,7 +159,7 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/orhan.kibrisli/PycharmProjects/heat_transfer/.venv/Lib/site-packages/heatrapy/database/WDS",
+    "last_opened_file_path": "C:/Users/orhan.kibrisli/PycharmProjects/heat_transfer",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.jshint": "true",
     "node.js.detected.package.tslint": "true",
@@ -148,14 +173,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\orhan.kibrisli\PycharmProjects\heat_transfer" />
       <recent name="C:\Users\orhan.kibrisli\PycharmProjects\heat_transfer\.venv\Lib\site-packages\heatrapy\database\WDS" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\orhan.kibrisli\PycharmProjects\heat_transfer\old" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.WDS_nice_report_final (1)">
-    <configuration name="1_6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.batch_run">
+    <configuration name="batch_run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="heat_transfer" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,7 +197,7 @@
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1_6.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/batch_run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,7 +206,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1_8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="steady_calc_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="heat_transfer" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -196,7 +222,7 @@
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1_8.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/steady_calc_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -205,7 +231,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="WDS_nice_report_final (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="steady_report_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="heat_transfer" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -221,7 +247,7 @@
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WDS_nice_report_final.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/steady_report_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -230,7 +256,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="WDS_nice_report_final" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="transient_calc_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="heat_transfer" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -246,7 +272,7 @@
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="C:\Users\orhan.kibrisli\PycharmProjects\heat_transfer\WDS_nice_report_final.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/transient_calc_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -255,7 +281,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="WDS_steady_transient_report" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="transient_report_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="heat_transfer" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -271,7 +297,7 @@
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="C:\Users\orhan.kibrisli\PycharmProjects\heat_transfer\WDS_steady_transient_report.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/transient_report_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -282,11 +308,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.WDS_nice_report_final (1)" />
-        <item itemvalue="Python.1_8" />
-        <item itemvalue="Python.WDS_nice_report_final" />
-        <item itemvalue="Python.1_6" />
-        <item itemvalue="Python.WDS_steady_transient_report" />
+        <item itemvalue="Python.batch_run" />
+        <item itemvalue="Python.steady_calc_2" />
+        <item itemvalue="Python.transient_report_2" />
+        <item itemvalue="Python.transient_calc_2" />
+        <item itemvalue="Python.steady_report_2" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +334,8 @@
       <workItem from="1787052241084" duration="3003000" />
       <workItem from="1787816877660" duration="6000" />
       <workItem from="1789371420660" duration="26234000" />
-      <workItem from="1789649390188" duration="2633000" />
+      <workItem from="1789649390188" duration="2792000" />
+      <workItem from="1791413603291" duration="13427000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -318,7 +345,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789401132882</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <option name="closed" value="true" />
+      <created>1789652427979</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1789652427979</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,14 +375,25 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/heat_transfer$transient_report_2.coverage" NAME="transient_report_2 Coverage Results" MODIFIED="1791427130811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heat_transfer$1_6.coverage" NAME="1_6 Coverage Results" MODIFIED="1789395703601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heat_transfer$1_3.coverage" NAME="1_3 Coverage Results" MODIFIED="1789390635432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heat_transfer$transient_calc_2.coverage" NAME="transient_calc_2 Coverage Results" MODIFIED="1791427111187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heat_transfer$transient_report_1.coverage" NAME="transient_report_1 Coverage Results" MODIFIED="1791417929826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heat_transfer$WDS_steady_transient_report__1_.coverage" NAME="WDS_steady_transient_report (1) Coverage Results" MODIFIED="1791414145617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heat_transfer$batch_run.coverage" NAME="batch_run Coverage Results" MODIFIED="1791430252990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heat_transfer$1_2.coverage" NAME="1_2 Coverage Results" MODIFIED="1789376499889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heat_transfer$coef_check.coverage" NAME="coef_check Coverage Results" MODIFIED="1791423466923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heat_transfer$transient_calc_1.coverage" NAME="transient_calc_1 Coverage Results" MODIFIED="1791417667021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heat_transfer$steady_calc_2.coverage" NAME="steady_calc_2 Coverage Results" MODIFIED="1791427316400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heat_transfer$1_8.coverage" NAME="1_8 Coverage Results" MODIFIED="1789399681615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heat_transfer$1_5.coverage" NAME="1_5 Coverage Results" MODIFIED="1789395145884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heat_transfer$steady_report_2.coverage" NAME="steady_report_2 Coverage Results" MODIFIED="1791426681293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heat_transfer$1_1.coverage" NAME="1_1 Coverage Results" MODIFIED="1789373471356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/heat_transfer$1_3.coverage" NAME="1_3 Coverage Results" MODIFIED="1789390635432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heat_transfer$1_7.coverage" NAME="1_7 Coverage Results" MODIFIED="1789397824183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heat_transfer$1_4.coverage" NAME="1_4 Coverage Results" MODIFIED="1789390881970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/heat_transfer$1_2.coverage" NAME="1_2 Coverage Results" MODIFIED="1789376499889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/heat_transfer$WDS_nice_report_final__1_.coverage" NAME="WDS_nice_report_final (1) Coverage Results" MODIFIED="1789651807047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heat_transfer$steady_calc_1.coverage" NAME="steady_calc_1 Coverage Results" MODIFIED="1791422514997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heat_transfer$steady_report_1.coverage" NAME="steady_report_1 Coverage Results" MODIFIED="1791426012309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heat_transfer$WDS_nice_report_final__1_.coverage" NAME="WDS_nice_report_final (1) Coverage Results" MODIFIED="1791414001342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
